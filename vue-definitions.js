@@ -729,7 +729,7 @@ let app = new Vue({
     },
 
     createURL() {
-      let baseUrl = 'https://aatishb.com/covidtrends/?';
+      let baseUrl = window.location.href + '?';
 
       let queryUrl = new URLSearchParams();
 
